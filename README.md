@@ -1,4 +1,4 @@
-# SonicGarden10 周年お祝いプログラム
+# SonicGarden １０周年お祝いプログラム
 
 - ASCII アート風のプログラムになっています
 - `ruby sg10.rb` とすると、別の ASCII アート風プログラムを出力します
@@ -22,13 +22,13 @@
 | mml2data.rb   | MML から埋め込み用音楽データを作るプログラム     |
 | aa/           | AA ビットマップテキスト                          |
 | music/        | 音楽データ                                       |
-| doc/          | 解説                                             |
+| doc/          | [解説](/doc/GUIDE.md)                            |
 
 ## 参考文献
 
-- [あなたの知らない超絶技巧プログラミングの世界：書籍案内｜技術評論社](https://gihyo.jp/book/2015/978-4-7741-7643-7)
+- [あなたの知らない超絶技巧プログラミングの世界](https://gihyo.jp/book/2015/978-4-7741-7643-7)
 
 ## 著作権情報
 
 - プログラム: Shunichi Ikegami
-- 曲/歌詞: Takenori Oshima
+- 作詞/作曲: Takenori Oshima
