@@ -175,17 +175,17 @@ ruby でバイト列を数値に変換する処理ってある？
 Marshal
 https://docs.ruby-lang.org/ja/latest/doc/marshal_format.html
 
-任意のバイト列にヘッダをうまく付加すると Marshal.load で Bignum としてロードできるデータになる。  
+任意のバイト列にヘッダをうまく付加すると `Marshal.load` で `Bignum` としてロードできるデータになる。  
 つまり、こうなる。
 
 ```
-AAビットマップデータ -> zlib圧縮 -> MarshalのヘッダをつけてMarshal.load -> 数値をBASE89エンコード -> ASCII文字列
+AAビットマップデータ -> zlib圧縮 -> ヘッダをつけて Marshal.load -> 数値をBASE89エンコード -> ASCII文字列
 ```
 
 展開時はこれの逆をする。
 
 ```
-ASCII文字列 -> BASE89デコードして数値にする -> Marshal.dumpしてヘッダを除去 -> zlib展開 -> AAビットマップデータ
+ASCII文字列 -> BASE89デコードして数値にする -> Marshal.dump してヘッダを除去 -> zlib展開 -> AAビットマップデータ
 ```
 
 ### デコード処理のコード
