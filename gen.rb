@@ -212,7 +212,6 @@ def gen(ascii, w, h, count, music_ascii)
   # *"" の部分が  *"  " のようにクォートにスペースや改行が入るとダメ
   # %|...| の %| の間にスペースや改行が入るとダメ
   # %|...| の中身に | が入るとダメ
-  # D.(...) の . と ( の間にスペースや改行が入るとダメ だった気がするけど、そうでもない
   wb = w / 8
   bs = wb*h
   ah = marshal_header_size(ascii)
@@ -227,13 +226,13 @@ def gen(ascii, w, h, count, music_ascii)
     a.unpack("C*").map{|c|f=f*89+((c-2)%90-1)};
     Zlib::Inflate.inflate(Marshal.dump(f)[h..-1]);;
   };
-  f=D.(F,#{ah});
+  f=D[F,#{ah}];
   } +
-  "if(ARGV.first=='music');eval(D.(M,#{mh}));exit;end;" +
+  "if(ARGV.first=='music');eval(D[M,#{mh}]);exit;end;" +
   %q{S=%{t=#{(t+1)%4};eval$s=%w{#$s}*"";%|}} +
   %{+F*30;#{h}.times{|n|puts(
     (
-      "#{format}".%(f[t*#{bs}+#{wb}*n,#{wb}].unpack("N#{wb/4}"))
+      "#{format}"%(f[t*#{bs}+#{wb}*n,#{wb}].unpack("N#{wb/4}"))
     ).gsub(/./){$&<"1" ? (32.chr) : S.slice!(0,1)}
   )};
   print(S.slice!(0,100)+'+'+'-'*27+10.chr+S.slice!(0,100));

@@ -43,8 +43,8 @@ K].:IQf                  I&&    jrhm    X&'   0ZuWKH!La    -uO.    n+_    l^@Lv 
 Ty,?am^f                ]-"U             eT   x`:p4"4:K             YE            VLL   Un)h-   xPU+T6q__)2H         h_nv),JS"RJ
 'Hxy.##q4              Jnl/q#            86   hy0th$[v!,            pA.          mG1J   )]lD-   bVgpP5%VJpN)r       (!ilog=GNAlp
 9QSJw37gW30          -s+;%#po}       ;   re   quire'zlib'       ;   D=->        (a,h)   {f=0;   a.unpack("C*").   map{|c|f=f*89+
-((c-2)%90-1)};Zlib::Inflate.inflate(Marshal.dump(f)[h..-1]);;};f=D.(F,7);if(ARGV.first=='music');eval(D.(M,7));exit;end;S=%{t=#{
-(t+1)%4};eval$s=%w{#$s}*"";%|}+F*30;48.times{|n|puts(("%032b%032b%032b%032b".%(f[t*768+16*n,16].unpack("N4"))).gsub(/./){$&<"1"?
-(32.chr):S.slice!(0,1)})};print(S.slice!(0,100)+'+'+'-'*27+10.chr+S.slice!(0,100));puts("|"+%(,#,Sonic,Garden,10th,Anniv.).split
-(',').join(32.chr));}*"";%|^eE@K#[Wl.=Y@J6:cA[RThqqn^Y2GvcUd_x?VS+`#JaQd?^xC*`1$$QF6W]c)8r9P^8.]=Fx2+---------------------------
-rw%OH,vJ]koC:3)UHm+$M1P-jYdTVYh9bF[:BD>3$AS5g?5vbaFZszv5f'Yf1O.`/@P[ve"Vi4bE`]F"jQ(x[X#h:BM-Sc9$b!/2| # Sonic Garden 10th Anniv.
+((c-2)%90-1)};Zlib::Inflate.inflate(Marshal.dump(f)[h..-1]);;};f=D[F,7];if(ARGV.first=='music');eval(D[M,7]);exit;end;S=%{t=#{(t
++1)%4};eval$s=%w{#$s}*"";%|}+F*30;48.times{|n|puts(("%032b%032b%032b%032b"%(f[t*768+16*n,16].unpack("N4"))).gsub(/./){$&<"1"?(32
+.chr):S.slice!(0,1)})};print(S.slice!(0,100)+'+'+'-'*27+10.chr+S.slice!(0,100));puts("|"+%(,#,Sonic,Garden,10th,Anniv.).split(',
+').join(32.chr));}*"";%|^eE@K#[Wl.=Y@J6:cA[RThqqn^Y2GvcUd_x?VS+`#JaQd?^xC*`1$$QF6W]c)8r9P^8.]=Fx2rw%+---------------------------
+OH,vJ]koC:3)UHm+$M1P-jYdTVYh9bF[:BD>3$AS5g?5vbaFZszv5f'Yf1O.`/@P[ve"Vi4bE`]F"jQ(x[X#h:BM-Sc9$b!/27K4| # Sonic Garden 10th Anniv.
