@@ -32,3 +32,6 @@
 
 - プログラム: Shunichi Ikegami
 - 作詞/作曲: Takenori Oshima
+- 編曲: Ryuji Nishida
+
+プログラムの quine 部分のロジックは[あなたの知らない超絶技巧プログラミングの世界](https://gihyo.jp/book/2015/978-4-7741-7643-7)に掲載されている [山手 quine](https://github.com/mame/trance-book/blob/master/1-1-2/yamanote-quine.rb) から拝借しています。
