@@ -1,7 +1,7 @@
 # sg10.rb 解説
 
 ## Quine基本形
-次のrubyプログラムは自分自身と同じ文字列を出力する
+次のrubyプログラムは自分自身と同じ文字列を出力する[(simple_quine1.rb)](/doc/simple_quine1.rb)
 
 ```
 eval $s = %q{s = %{eval $s = %q{#{$s}}}; puts(s)}
@@ -25,7 +25,7 @@ puts s # Hello, World!
 ```
 
 ## AA(ASCII ART)を出力する
-さっきの Quine を少し変更する
+さっきの Quine を少し変更する[(simple_quine2.rb)](/doc/simple_quine2.rb)
 
 ```
 eval$s=%w{s=%{eval$s=%w{#{$s}}*""};puts(s)}*""
@@ -78,8 +78,8 @@ Quine部分は、こんな要素でできている。
 * AAの最後のパディング
 
 読みやすくした sg10.rb 
-* https://github.com/shunichi/sg10/blob/main/doc/sg10_formatted.rb
-* https://github.com/shunichi/sg10/blob/main/doc/sg10_formatted2.rb
+* [改行やスペースを入れて整形した sg10.rb](/doc/sg10_formatted.rb)
+* [コードの意味が変わっていしまうけど、外側の eval をなくして解説コメントを追加した sg10.rb](/doc/sg10_formatted2.rb)
 
 AA元データ
 * https://github.com/shunichi/sg10/blob/main/aa/b0_sg10th.txt
