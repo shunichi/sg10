@@ -79,10 +79,10 @@ Quine部分は、こんな要素でできている。
 
 読みやすくした sg10.rb 
 * [改行やスペースを入れて整形した sg10.rb](/doc/sg10_formatted.rb)
-* [コードの意味が変わっていしまうけど、外側の eval をなくして解説コメントを追加した sg10.rb](/doc/sg10_formatted2.rb)
+* [コードの意味が変わってしまうけど、外側の eval をなくして解説コメントを追加した sg10.rb](/doc/sg10_formatted2.rb)
 
 AA元データ
-* https://github.com/shunichi/sg10/blob/main/aa/b0_sg10th.txt
+* [b0_sg10th.txt](/aa/b0_sg10th.txt)
 
 ## 圧縮
 * AAをビットマップデータとして表現する
@@ -199,7 +199,7 @@ D=->(a,h){
 ```
 
 ## 音楽再生
-https://github.com/shunichi/sg10/blob/main/music.rb
+[music.rb](/blob/main/music.rb)
 
 ### 大雑把にやってること
 
